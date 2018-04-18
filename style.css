@@ -1,0 +1,110 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    background-image: url(http://data.freehdw.com/3d-computer.jpg);
+    
+    }
+    .header {
+      padding: 2px;
+      text-align: center;
+      background-image: url(https://coverfiles.alphacoders.com/406/40665.jpg);
+      color: white;
+      text-shadow: 2px 2px green;
+  }
+  .qoute {
+      color: white;
+      margin-left: 50px;
+      margin-top: 70px;
+  }
+  
+/* navigation */
+.parent {
+    top:40%;
+    left:25%;
+    position:fixed;
+   display:block;
+    width:100px;
+    height:100px;
+    background-color:transparent;
+    border-radius:50%;
+    z-index:20;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  }
+  .contact {
+    width:60%;
+    height:60%;   
+    position:absolute;
+    color:#fff;
+    text-shadow:1px 1px yellow;
+    text-align:center;
+    line-height:60px;
+    top:25%;
+    left:25%;
+    z-index:19;
+    transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    position:absolute;
+  }
+  .itunes {
+    width:60%;
+    height:60%;    
+    position:absolute;
+    color:#fff;
+    text-shadow:1px 1px yellow;
+    text-align:center;
+    line-height:60px;
+    top:25%;
+    left:25%;
+    z-index:19;
+    transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
+  }
+  .movies {
+    width:60%;
+    height:60%;    
+    position:absolute;
+    color:#fff;
+    text-shadow:1px 1px yellow;
+    text-align:center;
+    line-height:60px;
+    top:25%;
+    left:25%;
+    transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;  
+  }
+    .books {
+    width:60%;
+    height:60%;   
+    position:absolute;
+    color:#fff;
+    text-shadow:1px 1px yellow;
+    text-align:center;
+    line-height:60px;
+    top:25%;
+    left:25%;
+    transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .6s;  
+  }
+  .circle {
+    top:40%;
+    left:25%;
+    width:100px;
+    height:100px;
+    background: #fc0000;
+    border-radius:50%;
+    position:absolute;
+    z-index:21;
+    color: #fff;
+    text-shadow:2px 2px green;
+    text-align:center;
+    line-height:100px;
+    font-size: 28px;
+    cursor:pointer;
+    position:fixed;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
